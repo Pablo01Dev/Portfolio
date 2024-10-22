@@ -73,6 +73,4 @@ Para visualizar uma prévia do projeto <a href="https://portfolio-bruno-oliveira
 <br>
 
 ## Autor
-
-| [<img src="https://avatars.githubusercontent.com/u/103857382?v=4" width=115><br><sub>Bruno Oliveira</sub>](https://github.com/BrunoOliveira16) |
-| :---: |
+Pablo Guimarães Gomes
