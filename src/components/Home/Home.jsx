@@ -6,7 +6,7 @@ import shapetwo from '../../assets/icon-js.png';
 import shapethree from '../../assets/icon-node.png';
 
 import { FaLinkedin, FaGithub, FaInstagram } from 'react-icons/fa';
-import CV from '../../assets/Curriculo Bruno Oliveira.pdf'
+import CV from '../../assets/Curriculo Pablo Guimarães.pdf'
 
 const Home = () => {
   return (
@@ -56,15 +56,15 @@ const Home = () => {
                 </p>
 
                 <div className="home__socials">
-                    <a href="https://www.linkedin.com/in/bruno-oliveira1608/" className="home__social-link" target="_blank">
+                    <a href="https://www.linkedin.com/in/pablo-guimar%C3%A3es-a31197144/" className="home__social-link" target="_blank">
                         <FaLinkedin />
                     </a>
 
-                    <a href="https://github.com/BrunoOliveira16" className="home__social-link" target="_blank">
+                    <a href="https://github.com/Pablo01Dev" className="home__social-link" target="_blank">
                         <FaGithub />
                     </a>
 
-                    <a href="https://www.instagram.com/bruno.oliveira.16/" className="home__social-link" target="_blank">
+                    <a href="https://www.instagram.com/pablogomesdg/" className="home__social-link" target="_blank">
                         <FaInstagram />
                     </a>
                 </div>

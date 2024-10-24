@@ -106,16 +106,7 @@ export const projects = [
         codigo: 'https://github.com/BrunoOliveira16/game-master',
         demo: 'https://game-master-fawn.vercel.app/'
     },
-    {
-        id: 2,
-        img: imagem02,
-        category: 'React',
-        title: 'SPA Turismo Espacial',
-        description:
-            'Este é um website de turismo espacial em React! Explore destinos incríveis, conheça a tripulação e as tecnologias usadas. Tudo com SPA, React-router e dados JSON.',
-        codigo: 'https://github.com/BrunoOliveira16/space-tourism-website',
-        demo: 'https://turismo-espacial.netlify.app/'
-    },
+   
     {
         id: 3,
         img: imagem03,
