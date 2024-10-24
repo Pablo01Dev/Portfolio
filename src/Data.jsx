@@ -2,12 +2,9 @@
 import { SiJavascript, SiTypescript, SiReact, SiAngular, SiBootstrap, SiStyledcomponents, SiNodedotjs, SiJquery } from 'react-icons/si';
 
 /*======== Import das imagens =======*/
-import imagem01 from '/public/game-master.jpg'
-import imagem02 from '/public/space-tourism.jpg'
-import imagem03 from '/public/poke-api.jpg'
-import imagem04 from '/public/hbo-clone.jpg'
+import imagem01 from '/public/poke-api.jpg'
+import imagem02 from '/public/andarilo-studio.png'
 import imagem05 from '/public/calculadora-react.jpg'
-import imagem06 from '/public/disney+.jpg'
 
 
 export const links = [
@@ -96,39 +93,29 @@ export const skills = [
 ]
 
 export const projects = [
+
     {
         id: 1,
         img: imagem01,
-        category: 'React',
-        title: 'App Game Master',
-        description:
-            'Este é um website que consome uma API de jogos, possui integração com Firebase para autenticação de usuário e armazenamento de dados com o firestore, construção com react e sass',
-        codigo: 'https://github.com/BrunoOliveira16/game-master',
-        demo: 'https://game-master-fawn.vercel.app/'
-    },
-   
-    {
-        id: 3,
-        img: imagem03,
         category: 'JavaScript',
         title: 'Pokedex API',
         description:
             'O site utiliza HTML, CSS e JavaScript para criar uma interface dinâmica e responsiva. O site também usa conceitos de API, fetch e async/await consumindo dados da PokéAPI.',
-        codigo: 'https://github.com/BrunoOliveira16/Pokedex-Api',
+        codigo: 'https://github.com/Pablo01Dev/Pokedex-API',
         demo: 'https://pokedex-api-javascript.netlify.app/'
     },
     {
-        id: 4,
-        img: imagem04,
-        category: 'HTML/CSS',
-        title: 'Clone HBO Max',
+        id: 2,
+        img: imagem02,
+        category: 'React',
+        title: 'Andarilo Studio',
         description:
-            'Clone do site da HBO Max feito com HTML, CSS e JavaScript. Um projeto para praticar as habilidades de frontend e UI design, assim como designer responsivo',
-        codigo: 'https://github.com/BrunoOliveira16/Clone-HBO-Max',
-        demo: 'https://hbo-max-clone.netlify.app/'
+            'Andarilo Studio é um projeto pessoal dedicado ao meu próprio negócio, projetado para oferecer uma interface minimalista e simplificada.',
+        codigo: 'https://github.com/Pablo01Dev/andarilo',
+        demo: 'https://www.andarilo.com.br'
     },
     {
-        id: 5,
+        id: 3,
         img: imagem05,
         category: 'React',
         title: 'Calculadora com React',
@@ -136,16 +123,6 @@ export const projects = [
             'Um site que usa React para criar uma calculadora simples e funcional. O site usa componentes, estados e hooks para gerenciar a lógica da calculadora.',
         codigo: 'https://github.com/BrunoOliveira16/calculadora-react',
         demo: 'https://calculadora-projeto-react.netlify.app/'
-    },
-    {
-        id: 6,
-        img: imagem06,
-        category: 'JavaScript',
-        title: 'Clone Disney+',
-        description:
-            'Este é um site clone do disney+ que utiliza HTML, Sass, JavaScript e gulp para gerenciamento de desenvolvimento, minificação de código e build do projeto.',
-        codigo: 'https://github.com/BrunoOliveira16/disney-clone',
-        demo: 'https://disney-clone-six-eta.vercel.app/'
     },
 ]
 
