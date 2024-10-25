@@ -73,4 +73,4 @@ Para visualizar uma prévia do projeto <a href="https://portfolio-bruno-oliveira
 <br>
 
 ## Autor
-Pablo Guimarães Gomes
+Pablo Guimarães Gomes s
