@@ -56,7 +56,7 @@
                                 </span>
 
                                 <h3 className="contact__card--title">Endereço</h3>
-                                <p className="contact__card--data">Rio de Janeiro / RJ</p>
+                                <p className="contact__card--data">Niterói / RJ</p>
                             </div>
 
                             <div className="contact__card">
