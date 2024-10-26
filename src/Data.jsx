@@ -121,7 +121,7 @@ export const projects = [
         title: 'Calculadora com React',
         description:
             'Um site que usa React para criar uma calculadora simples e funcional. O site usa componentes, estados e hooks para gerenciar a lógica da calculadora.',
-        codigo: 'https://github.com/BrunoOliveira16/calculadora-react',
+        codigo: 'https://github.com/Pablo01Dev/Calculadora-React',
         demo: 'https://calculadora-react-cyan-one.vercel.app/'
     },
 ]
