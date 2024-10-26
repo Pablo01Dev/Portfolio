@@ -68,7 +68,7 @@ npm start
 <br>
 
 ## 💻 Demonstração
-Para visualizar uma prévia do projeto <a href="https://portfolio-bruno-oliveira.netlify.app/"><b>clique aqui</b></a>
+Para visualizar uma prévia do projeto <a href="https://portfolio-pablo-guima.vercel.app/"><b>clique aqui</b></a>
 
 <br>
 
