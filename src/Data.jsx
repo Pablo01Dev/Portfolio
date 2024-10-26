@@ -102,7 +102,7 @@ export const projects = [
         description:
             'O site utiliza HTML, CSS e JavaScript para criar uma interface dinâmica e responsiva. O site também usa conceitos de API, fetch e async/await consumindo dados da PokéAPI.',
         codigo: 'https://github.com/Pablo01Dev/Pokedex-API',
-        demo: 'https://pokedex-api-javascript.netlify.app/'
+        demo: 'https://pokedex-api-psi.vercel.app/'
     },
     {
         id: 2,
@@ -122,7 +122,7 @@ export const projects = [
         description:
             'Um site que usa React para criar uma calculadora simples e funcional. O site usa componentes, estados e hooks para gerenciar a lógica da calculadora.',
         codigo: 'https://github.com/BrunoOliveira16/calculadora-react',
-        demo: 'https://calculadora-projeto-react.netlify.app/'
+        demo: 'https://calculadora-react-cyan-one.vercel.app/'
     },
 ]
 

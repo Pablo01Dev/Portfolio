@@ -76,8 +76,8 @@
 .light-theme {
     /* ================== Cores ================== */
     --title-color: #000;
-    --text-color: #262626;
-    --bg-color: #afaead;
+    --text-color: #1d1d1d;
+    --bg-color: #e9e9e9;
     --bg-color-alt: #fff;
     --container-color: #fff;
     --border-color: #000;

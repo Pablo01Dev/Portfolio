@@ -106,7 +106,7 @@
 .home__profile {
     position: absolute;
     bottom: 0;
-    right: 9px;
+    right: 0px;
     height: 735px;
     border-radius: 500px;
     object-fit: cover;
