@@ -2,9 +2,10 @@
 import { SiJavascript, SiTypescript, SiReact, SiAngular, SiBootstrap, SiStyledcomponents, SiNodedotjs, SiJquery } from 'react-icons/si';
 
 /*======== Import das imagens =======*/
-import imagem01 from '/public/poke-api.jpg'
+import imagem01 from '/public/selimp.png'
 import imagem02 from '/public/andarilo-studio.png'
 import imagem05 from '/public/calculadora-react.jpg'
+import imagem04 from '/public/poke-api.jpg'
 
 
 export const links = [
@@ -126,7 +127,7 @@ export const projects = [
     },
     {
         id: 4,
-        img: imagem01,
+        img: imagem04,
         category: 'JavaScript',
         title: 'Pokedex API',
         description:
