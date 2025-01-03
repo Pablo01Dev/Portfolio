@@ -1,3 +1,5 @@
+/* Atualização no código para corrigir o problema de proporção da imagem de perfil */
+
 .home {
     background-image: var(--first-gradient);
     min-height: 100vh;
@@ -101,16 +103,20 @@
     border-radius: 50%;
     position: relative;
     z-index: 1;
+    overflow: hidden; /* Garante que a imagem não saia da div redonda */
 }
 
 .home__profile {
     position: absolute;
-    bottom: 0;
-    right: 0px;
-    height: 735px;
-    border-radius: 500px;
-    object-fit: cover;
+    top: 50%; /* Centraliza verticalmente */
+    left: 50%; /* Centraliza horizontalmente */
+    transform: translate(-50%, -50%); /* Ajusta a centralização */
+    width: 100%; /* Garante que a imagem ocupe o espaço da div */
+    height: 100%; /* Garante proporção dentro da div */
+    object-fit: cover; /* Ajusta a imagem para preencher a div sem distorção */
+    border-radius: 50%; /* Mantém o formato redondo */
 }
+
 
 .home__data {
     border: 2px solid var(--border-color);
@@ -186,3 +192,15 @@
     right: -2%;
 }
 
+/* Media Queries para Responsividade */
+@media (min-width: 768px) {
+    .home__profile {
+        width: 100%;
+    }
+}
+
+@media (max-width: 767px) {
+    .home__profile {
+        width: 100%;
+    }
+}

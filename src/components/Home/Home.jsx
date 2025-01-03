@@ -1,12 +1,12 @@
 import React from 'react';
 import './home.css';
-import profile from '../../assets/profile-img.png'
+import profile from '../../assets/profile-img.jpeg';
 import shapeOne from '../../assets/icon-react.png';
 import shapetwo from '../../assets/icon-js.png';
 import shapethree from '../../assets/icon-node.png';
 
 import { FaLinkedin, FaGithub, FaInstagram } from 'react-icons/fa';
-import CV from '../../assets/Curriculo Pablo Guimarães.pdf'
+import CV from '../../assets/Curriculo Pablo Guimarães.pdf';
 
 const Home = () => {
   return (
@@ -27,24 +27,6 @@ const Home = () => {
                     <div className="home__banner">
                         <img src={profile} alt="Minha imagem de perfil" className="home__profile" />
                     </div>
-
-                    {/*<p className="home__data home__data-one">
-                        <span className="text-lg">
-                            2 <b>+</b>
-                        </span>
-
-                        <span className="text-sm text-cs">
-                            Years of <span>Experience</span>
-                        </span>
-                    </p>
-
-                    <p className="home__data home__data-two">
-                        <span className="text-lg">30</span>
-
-                        <span className="text-sm text-cs">
-                            Completed <span>Projects</span>
-                        </span>
-                    </p>*/}
 
                     <img src={shapeOne} alt="" className="shape shape__1"/>
                     <img src={shapetwo} alt="" className="shape shape__2"/>
@@ -70,16 +52,14 @@ const Home = () => {
                 </div>
 
                 <div className="home__btns">
-                    <a download="" href={CV} className="btn text-cs">Dowload CV</a>
-                    {/*<a href="" className="btn text-cs">Dowload CV</a>*/}
+                    <a download="" href={CV} className="btn text-cs">Download CV</a>
                     <a href="#skills" className="hero__link text-cs">Minhas Skills</a>
                 </div>
             </div>
-
-            {/* <div className="section__deco deco__left"></div> */}
         </div>
     </section>
   );
 };
 
 export default Home;
+    
