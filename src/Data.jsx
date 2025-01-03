@@ -39,13 +39,13 @@ export const services = [
         id: 1,
         name: 'Desenvolvimento Web',
         title: 'Front-End',
-        description:'Desenvolvimento de sites profissionais, blogs, portfólios, landing pages e e-commerce.'
+        description: 'Desenvolvimento de sites profissionais, blogs, portfólios, landing pages e e-commerce.'
     },
     {
         id: 2,
         name: 'Designer',
         title: 'UI Design',
-        description:'Desenho interfaces que sejam claras, objetivas e que possam ser intuitivas para o usuário. '
+        description: 'Desenho interfaces que sejam claras, objetivas e que possam ser intuitivas para o usuário. '
     },
 ]
 
@@ -97,12 +97,12 @@ export const projects = [
     {
         id: 1,
         img: imagem01,
-        category: 'JavaScript',
-        title: 'Pokedex API',
+        category: 'React',
+        title: 'Selimp',
         description:
-            'O site utiliza HTML, CSS e JavaScript para criar uma interface dinâmica e responsiva. O site também usa conceitos de API, fetch e async/await consumindo dados da PokéAPI.',
-        codigo: 'https://github.com/Pablo01Dev/Pokedex-API',
-        demo: 'https://pokedex-api-psi.vercel.app/'
+            'O website foi desenvolvido utilizando Vite + React. Um site institucional para uma prestadora de serviços de portaria e limpeza.',
+        codigo: 'https://github.com/Pablo01Dev/',
+        demo: 'https://selimp.com.br/'
     },
     {
         id: 2,
@@ -124,6 +124,16 @@ export const projects = [
         codigo: 'https://github.com/Pablo01Dev/Calculadora-React',
         demo: 'https://calculadora-react-cyan-one.vercel.app/'
     },
+    {
+        id: 4,
+        img: imagem01,
+        category: 'JavaScript',
+        title: 'Pokedex API',
+        description:
+            'O site utiliza HTML, CSS e JavaScript para criar uma interface dinâmica e responsiva. O site também usa conceitos de API, fetch e async/await consumindo dados da PokéAPI.',
+        codigo: 'https://github.com/Pablo01Dev/Pokedex-API',
+        demo: 'https://pokedex-api-psi.vercel.app/'
+    },
 ]
 
 export const cv = [
@@ -133,17 +143,17 @@ export const cv = [
         subtitle: 'Bacharel -Universidade Estácio de Sá',
         date: '2023 - 2025',
         description:
-        'Ingressei na faculdade em abril de 2023, atualmente estou cursando o 4º período, com o objetivo de se especializar ainda mais na área de TI em uma faculdade com foco em desenvolvimento full-stack, desde então tive experiêcia com Java, JavaScript, lógica de programação e algoritimos, analise e requistos de software e banco de dados.',
+            'Ingressei na faculdade em abril de 2023, atualmente estou cursando o 4º período, com o objetivo de se especializar ainda mais na área de TI em uma faculdade com foco em desenvolvimento full-stack, desde então tive experiêcia com Java, JavaScript, lógica de programação e algoritimos, analise e requistos de software e banco de dados.',
         category: 'educacao',
     },
-    
+
     {
         id: 2,
         title: 'Assistente Administrativo',
         subtitle: 'Técnico - SENAI',
         date: '2020 - 2021',
         description:
-        'Ingressei no curso em um incentivo da empresa Itaúba, onde iniciei o estudo em administração, que foi fundamental posteriormente em outras oportunidades.',
+            'Ingressei no curso em um incentivo da empresa Itaúba, onde iniciei o estudo em administração, que foi fundamental posteriormente em outras oportunidades.',
         category: 'educacao',
     },
 
@@ -153,7 +163,7 @@ export const cv = [
         subtitle: 'Pinciara Imóveis',
         date: '2019 - 2024',
         description:
-        'Fui responsável por toda parte visual e web da imobiliária, até que decidi migrar para desenvolvimento.',
+            'Fui responsável por toda parte visual e web da imobiliária, até que decidi migrar para desenvolvimento.',
         category: 'experiencia',
     },
 
@@ -163,10 +173,10 @@ export const cv = [
         subtitle: 'Itaúba Arquitetura e Construções',
         date: '2020 - 2021',
         description:
-        'Ingressei no curso em um incentivo da empresa Itaúba, sendo o primeiro semestre estudando e o segundo trabalhando.',
+            'Ingressei no curso em um incentivo da empresa Itaúba, sendo o primeiro semestre estudando e o segundo trabalhando.',
         category: 'experiencia',
     },
-    
-    
+
+
 ]
 
