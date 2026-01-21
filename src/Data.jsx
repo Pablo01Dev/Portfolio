@@ -1,5 +1,5 @@
 /* ======= Icones Tecnologias =======*/
-import { SiJavascript, SiTypescript, SiReact, SiAngular, SiBootstrap, SiStyledcomponents, SiNodedotjs, SiJquery } from 'react-icons/si';
+import { SiJavascript, SiTypescript, SiReact, SiExpress, SiBootstrap, SiStyledcomponents, SiNodedotjs, SiJquery, SiMongodb, SiPostgresql, SiGithub } from 'react-icons/si';
 
 /*======== Import das imagens =======*/
 import imagem01 from '/public/selimp.png'
@@ -51,47 +51,70 @@ export const services = [
 ]
 
 export const skills = [
-    {
-        id: 1,
-        name: 'JavaScript',
-        image: <SiJavascript id='js' />
-    },
-    {
-        id: 2,
-        name: 'TypeScript',
-        image: <SiTypescript id='ts' />
-    },
-    {
-        id: 3,
-        name: 'React',
-        image: <SiReact id='react' />
-    },
-    {
-        id: 4,
-        name: 'Angular',
-        image: <SiAngular id='angular' />
-    },
-    {
-        id: 5,
-        name: 'Bootstrap',
-        image: <SiBootstrap id='bootstrap' />
-    },
-    {
-        id: 6,
-        name: 'styled-components',
-        image: <SiStyledcomponents id='styled' />
-    },
-    {
-        id: 7,
-        name: 'jQuery',
-        image: <SiJquery id='jquery' />
-    },
-    {
-        id: 8,
-        name: 'Node js',
-        image: <SiNodedotjs id='node' />
-    },
-]
+
+  {
+    id: 1,
+    name: 'JavaScript (ES6+)',
+    image: <SiJavascript />
+  },
+  {
+    id: 2,
+    name: 'TypeScript',
+    image: <SiTypescript />
+  },
+  {
+    id: 3,
+    name: 'React',
+    image: <SiReact />
+  },
+
+  {
+    id: 4,
+    name: 'Styled Components',
+    image: <SiStyledcomponents />
+  },
+  {
+    id: 5,
+    name: 'Bootstrap',
+    image: <SiBootstrap />
+  },
+
+  {
+    id: 6,
+    name: 'Node.js',
+    image: <SiNodedotjs />
+  },
+  {
+    id: 7,
+    name: 'Express.js',
+    image: <SiExpress />
+  },
+
+  {
+    id: 8,
+    name: 'MongoDB',
+    image: <SiMongodb />
+  },
+  {
+    id: 9,
+    name: 'PostgreSQL',
+    image: <SiPostgresql />
+  },
+
+  {
+    id: 10,
+    name: 'Git / GitHub',
+    image: <SiGithub />
+  },
+
+  {
+    id: 11,
+    name: 'jQuery (legacy)',
+    image: <SiJquery />
+  },
+
+];
+
 
 export const projects = [
 

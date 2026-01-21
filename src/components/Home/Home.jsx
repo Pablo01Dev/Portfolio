@@ -20,7 +20,7 @@ const Home = () => {
                 <h1 className="home__title text-cs"><span>PABLO</span> GUIMARÃES</h1>
 
                 <p className="home__job">
-                    <span className="text-cs">Eu sou um</span> <b>Desenvolvedor Front-End</b>
+                    <span className="text-cs">Eu sou um</span> <b>Desenvolvedor Full Stack</b>
                 </p>
 
                 <div className="home__img-wrapper">
@@ -34,7 +34,7 @@ const Home = () => {
                 </div>
 
                 <p className="home__text">
-                    Sou natural do Rio de Janeiro, estudante de Análise e Desenvolvimento de Sistemas, um apaixonado por tecnologia e desenvolvimento Web, atualmente venho evoluindo minhas skills no front-end com React e também venho me especializando em Designer UX/UI.
+                    Sou natural do Rio de Janeiro, formado em Análise e Desenvolvimento de Sistemas, um apaixonado por tecnologia. Ao longo dos anos de estudo, venho aprimorando minhas skills no front e no back. 
                 </p>
 
                 <div className="home__socials">

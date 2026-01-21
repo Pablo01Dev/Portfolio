@@ -67,8 +67,8 @@ npm start
 
 <br>
 
-## 💻 Demonstração
-Para visualizar uma prévia do projeto <a href="https://portfolio-pablo-guima.vercel.app/"><b>clique aqui</b></a>
+## 💻 Portfolio
+Para visualizar o projeto <a href="https://portfolio-pablo-guima.vercel.app/"><b>clique aqui</b></a>
 
 <br>
 
