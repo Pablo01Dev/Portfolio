@@ -2,11 +2,11 @@
 import { SiJavascript, SiTypescript, SiReact, SiExpress, SiBootstrap, SiStyledcomponents, SiNodedotjs, SiJquery, SiMongodb, SiPostgresql, SiGithub } from 'react-icons/si';
 
 /*======== Import das imagens =======*/
-import imagem01 from '/public/selimp.png'
+import imagem01 from '/public/email-classifier.png'
 import imagem02 from '/public/andarilo-studio.png'
-import imagem05 from '/public/calculadora-react.jpg'
+import imagem03 from '/public/calculadora-react.jpg'
 import imagem04 from '/public/poke-api.jpg'
-
+import imagem05 from '/public/selimp.png'
 
 export const links = [
     {
@@ -52,66 +52,66 @@ export const services = [
 
 export const skills = [
 
-  {
-    id: 1,
-    name: 'JavaScript (ES6+)',
-    image: <SiJavascript />
-  },
-  {
-    id: 2,
-    name: 'TypeScript',
-    image: <SiTypescript />
-  },
-  {
-    id: 3,
-    name: 'React',
-    image: <SiReact />
-  },
+    {
+        id: 1,
+        name: 'JavaScript (ES6+)',
+        image: <SiJavascript />
+    },
+    {
+        id: 2,
+        name: 'TypeScript',
+        image: <SiTypescript />
+    },
+    {
+        id: 3,
+        name: 'React',
+        image: <SiReact />
+    },
 
-  {
-    id: 4,
-    name: 'Styled Components',
-    image: <SiStyledcomponents />
-  },
-  {
-    id: 5,
-    name: 'Bootstrap',
-    image: <SiBootstrap />
-  },
+    {
+        id: 4,
+        name: 'Styled Components',
+        image: <SiStyledcomponents />
+    },
+    {
+        id: 5,
+        name: 'Bootstrap',
+        image: <SiBootstrap />
+    },
 
-  {
-    id: 6,
-    name: 'Node.js',
-    image: <SiNodedotjs />
-  },
-  {
-    id: 7,
-    name: 'Express.js',
-    image: <SiExpress />
-  },
+    {
+        id: 6,
+        name: 'Node.js',
+        image: <SiNodedotjs />
+    },
+    {
+        id: 7,
+        name: 'Express.js',
+        image: <SiExpress />
+    },
 
-  {
-    id: 8,
-    name: 'MongoDB',
-    image: <SiMongodb />
-  },
-  {
-    id: 9,
-    name: 'PostgreSQL',
-    image: <SiPostgresql />
-  },
+    {
+        id: 8,
+        name: 'MongoDB',
+        image: <SiMongodb />
+    },
+    {
+        id: 9,
+        name: 'PostgreSQL',
+        image: <SiPostgresql />
+    },
 
-  {
-    id: 10,
-    name: 'Git / GitHub',
-    image: <SiGithub />
-  },
+    {
+        id: 10,
+        name: 'Git / GitHub',
+        image: <SiGithub />
+    },
 
-  {
-    id: 11,
-    name: 'jQuery (legacy)',
-    image: <SiJquery />
-  },
+    {
+        id: 11,
+        name: 'jQuery (legacy)',
+        image: <SiJquery />
+    },
 
 ];
 
@@ -121,12 +121,12 @@ export const projects = [
     {
         id: 1,
         img: imagem01,
-        category: 'React',
-        title: 'Selimp',
+        category: 'JavaScript',
+        title: 'E-mail Classifier',
         description:
-            'O website foi desenvolvido utilizando Vite + React. Um site institucional para uma prestadora de serviços de portaria e limpeza.',
-        codigo: 'https://github.com/Pablo01Dev/',
-        demo: 'https://selimp.com.br/'
+            'Esta é uma aplicação web desenvolvida com FastAPI (backend) e React + Vite (frontend), projetada para automatizar a triagem de e-mails em ambientes de alto volume, classificando e sugerindo respostas automáticas.',
+        codigo: 'https://github.com/Pablo01Dev/E-mail-Classifier',
+        demo: 'https://e-mail-classifier.vercel.app/'
     },
     {
         id: 2,
@@ -140,7 +140,7 @@ export const projects = [
     },
     {
         id: 3,
-        img: imagem05,
+        img: imagem03,
         category: 'React',
         title: 'Calculadora com React',
         description:
@@ -158,6 +158,17 @@ export const projects = [
         codigo: 'https://github.com/Pablo01Dev/Pokedex-API',
         demo: 'https://pokedex-api-psi.vercel.app/'
     },
+    {
+        id: 5,
+        img: imagem05,
+        category: 'React',
+        title: 'Selimp',
+        description:
+            'O website foi desenvolvido utilizando Vite + React. Um site institucional para uma prestadora de serviços de portaria e limpeza.',
+        codigo: 'https://github.com/Pablo01Dev/',
+        demo: 'https://selimp.com.br/'
+    },
+
 ]
 
 export const cv = [
