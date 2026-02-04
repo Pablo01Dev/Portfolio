@@ -7,6 +7,7 @@ import imagem02 from '/public/andarilo-studio.png'
 import imagem03 from '/public/calculadora-react.jpg'
 import imagem04 from '/public/poke-api.jpg'
 import imagem05 from '/public/selimp.png'
+import imagem06 from '/public/pi-manager.png'
 
 export const links = [
     {
@@ -165,9 +166,19 @@ export const projects = [
         title: 'Selimp',
         description:
             'O website foi desenvolvido utilizando Vite + React. Um site institucional para uma prestadora de serviços de portaria e limpeza.',
-        codigo: 'https://github.com/Pablo01Dev/',
+        codigo: 'https://github.com/Pablo01Dev/Selimp',
         demo: 'https://selimp.com.br/'
     },
+    {
+        id: 6,
+        img: imagem06,
+        category: 'React',
+        title: 'Pi Manager',
+        description:
+            'Pi Manager é um software de gestão interna voltado para imobiliárias, desenvolvido com o objetivo de organizar e otimizar processos internos da empresa.',
+        codigo: 'https://github.com/Pablo01Dev/Pi-Manager',
+        demo: 'https://pi-manager.vercel.app/'
+    }
 
 ]
 
