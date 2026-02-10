@@ -4,10 +4,10 @@ import { SiJavascript, SiTypescript, SiReact, SiExpress, SiBootstrap, SiStyledco
 /*======== Import das imagens =======*/
 import imagem01 from '/public/email-classifier.png'
 import imagem02 from '/public/andarilo-studio.png'
-import imagem03 from '/public/calculadora-react.jpg'
+import imagem03 from '/public/pi-manager.jpg'
 import imagem04 from '/public/poke-api.jpg'
 import imagem05 from '/public/selimp.png'
-import imagem06 from '/public/pi-manager.png'
+import imagem06 from '/public/calculadora-react.jpg'
 
 export const links = [
     {
@@ -143,11 +143,12 @@ export const projects = [
         id: 3,
         img: imagem03,
         category: 'React',
-        title: 'Calculadora com React',
+        title: 'Pi Manager',
         description:
-            'Um site que usa React para criar uma calculadora simples e funcional. O site usa componentes, estados e hooks para gerenciar a lógica da calculadora.',
-        codigo: 'https://github.com/Pablo01Dev/Calculadora-React',
-        demo: 'https://calculadora-react-cyan-one.vercel.app/'
+            'Pi Manager é um software de gestão interna voltado para imobiliárias, desenvolvido com o objetivo de organizar e otimizar processos internos da empresa.',
+        codigo: 'https://github.com/Pablo01Dev/Pi-Manager',
+        demo: 'https://pi-manager.vercel.app/'
+       
     },
     {
         id: 4,
@@ -173,11 +174,11 @@ export const projects = [
         id: 6,
         img: imagem06,
         category: 'React',
-        title: 'Pi Manager',
+        title: 'Calculadora com React',
         description:
-            'Pi Manager é um software de gestão interna voltado para imobiliárias, desenvolvido com o objetivo de organizar e otimizar processos internos da empresa.',
-        codigo: 'https://github.com/Pablo01Dev/Pi-Manager',
-        demo: 'https://pi-manager.vercel.app/'
+            'Um site que usa React para criar uma calculadora simples e funcional. O site usa componentes, estados e hooks para gerenciar a lógica da calculadora.',
+        codigo: 'https://github.com/Pablo01Dev/Calculadora-React',
+        demo: 'https://calculadora-react-cyan-one.vercel.app/'
     }
 
 ]
